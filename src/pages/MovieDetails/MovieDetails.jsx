@@ -1,5 +1,5 @@
 import { useState, useEffect } from 'react';
-import { TheMovieDbAPI } from '../services/api.js';
+import { TheMovieDbAPI } from '../../services/TheMovieDbAPI';
 import { useParams, Routes, Route, useLocation } from 'react-router-dom';
 import { Cast } from 'pages/Cast/Cast';
 import { Reviews } from 'pages/Reviews/Reviews';
