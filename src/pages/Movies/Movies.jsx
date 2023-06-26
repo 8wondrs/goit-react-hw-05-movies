@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import { useSearchParams } from 'react-router-dom';
 import SearchForm from 'components/SearchForm/SearchForm';
-import { TheMovieDbAPI } from '../../services/api.js';
+import { TheMovieDbAPI } from '../services/api.js';
 import { MovieList } from './Movies.styled.jsx';
 import { MoviesList } from 'components/MoviesList/MoviesList';
 import PropTypes from 'prop-types';

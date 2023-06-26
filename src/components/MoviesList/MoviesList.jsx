@@ -1,7 +1,7 @@
 import { MovieItem, LinkStyled, Image, Title } from './MoviesList.styled.jsx';
 import { useLocation } from 'react-router-dom';
 import PropTypes from 'prop-types';
-import { TheMovieDbAPI } from '../../services/api.js';
+import { TheMovieDbAPI } from '../services/api.js';
 import { Loader } from 'components/Loader/Loader';
 
 export function MoviesList({ id, title, poster_path }) {
