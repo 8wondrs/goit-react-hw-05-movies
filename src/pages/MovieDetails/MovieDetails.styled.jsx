@@ -55,6 +55,11 @@ export const NavLinkStyled = styled(NavLink)`
   &:hover {
     color: #f39c1c;
   }
+  &.active {
+    color: orange;
+    pointer-events: none;
+    text-decoration: underline;
+  }
 `;
 
 export const AdditionalList = styled.ul`
