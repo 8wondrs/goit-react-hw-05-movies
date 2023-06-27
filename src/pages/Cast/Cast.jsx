@@ -10,7 +10,6 @@ import {
   Text,
   CastName,
 } from './Cast.styled.jsx';
-import PropTypes from 'prop-types';
 import { Loader } from 'components/Loader/Loader';
 const theMovieDbAPI = new TheMovieDbAPI();
 
@@ -60,6 +59,3 @@ export function Cast() {
     </Block>
   );
 }
-Cast.propTypes = {
-  moviesId: PropTypes.number,
-};

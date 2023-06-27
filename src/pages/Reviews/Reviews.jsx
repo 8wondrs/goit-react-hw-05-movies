@@ -8,7 +8,6 @@ import {
   ReviewsList,
   ReviewsItem,
 } from './Reviews.styled.jsx';
-import PropTypes from 'prop-types';
 
 const theMovieDbAPI = new TheMovieDbAPI();
 
@@ -52,7 +51,3 @@ export function Reviews() {
     </Block>
   );
 }
-
-Reviews.propTypes = {
-  moviesId: PropTypes.number,
-};
