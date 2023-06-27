@@ -23,4 +23,5 @@ export function MoviesList({ id, title, poster_path }) {
 MoviesList.propTypes = {
   id: PropTypes.number.isRequired,
   title: PropTypes.string.isRequired,
+  poster_path: PropTypes.string,
 };
