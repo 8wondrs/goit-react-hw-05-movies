@@ -9,12 +9,13 @@ export const CastList = styled.ul`
   list-style: none;
   display: flex;
   flex-wrap: wrap;
-  gap: 15px;
+  gap: 10px;
+  flex-direction: row;
+  align-content: center;
+  align-items: flex-start;
 `;
 
 export const CastItem = styled.li`
-  margin-bottom: 10px;
-  width: 10%;
 `;
 export const Block = styled.div``;
 
