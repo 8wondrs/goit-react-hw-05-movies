@@ -4,7 +4,6 @@ import SearchForm from 'components/SearchForm/SearchForm';
 import { TheMovieDbAPI } from '../../services/api.js';
 import { MovieList } from './Movies.styled.jsx';
 import { MoviesList } from 'components/MoviesList/MoviesList';
-import PropTypes from 'prop-types';
 
 const theMovieDbAPI = new TheMovieDbAPI();
 function Movies() {
@@ -50,9 +49,5 @@ function Movies() {
     </section>
   );
 }
-
-Movies.propTypes = {
-  movies: PropTypes.arrayOf(PropTypes.object),
-};
 
 export default Movies;

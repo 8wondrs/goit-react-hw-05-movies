@@ -1,6 +1,5 @@
 import { useState, useEffect } from 'react';
 import { TheMovieDbAPI } from '../../services/api.js';
-import PropTypes from 'prop-types';
 import { MoviesList } from 'components/MoviesList/MoviesList';
 import { MovieList, Title } from './Home.styled.jsx';
 
@@ -36,9 +35,5 @@ function Home() {
     </>
   );
 }
-
-Home.propTypes = {
-  movies: PropTypes.array,
-};
 
 export default Home;

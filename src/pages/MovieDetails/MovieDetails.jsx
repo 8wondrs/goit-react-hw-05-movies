@@ -14,7 +14,6 @@ import {
   AdditionalList,
   AdditionalItem,
 } from './MovieDetails.styled.jsx';
-import PropTypes from 'prop-types';
 
 const theMovieDbAPI = new TheMovieDbAPI();
 
@@ -94,9 +93,5 @@ function MovieDetails() {
     </>
   );
 }
-
-MovieDetails.propTypes = {
-  moviesId: PropTypes.number,
-};
 
 export default MovieDetails;
